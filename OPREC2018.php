@@ -51,7 +51,3 @@ echo $mahasiswa = substr($nim,6) .' : menyatakan kode nomor mahasiswa <br>';
 
 
 ?>
-
-
-
-?>
