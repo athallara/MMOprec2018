@@ -34,11 +34,17 @@ for($i=0; $i<$row; $i++){
         $temp[$i] += $arr[$j] * $arr2[$i]; 
     }
 }
-
 print_r($temp); //HASIL BERUPA ARRAY
 
-//PERPANGKATAN --> Belum paham cara pow() di-Array :'(
-
+//PERPANGKATAN
+$temp=array();
+for($i=0; $i<$row; $i++){
+    $temp[$i]=0;
+    for($j=0; $j<$col; $j++){
+        $temp[$i] += pow($arr[$j],$arr2[$i]); 
+    }
+}
+print_r($temp); //HASIL BERUPA ARRAY
 
 // 3. PROGRAM ARITMATIKA MATRIKS 2X2
 $nim = "1301184451";
