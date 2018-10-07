@@ -46,7 +46,7 @@ for($i=0; $i<$row; $i++){
 }
 print_r($temp); //HASIL BERUPA ARRAY
 
-// 3. PROGRAM ARITMATIKA MATRIKS 2X2
+// 3. PROGRAM TAMPILKAN IDENTITAS
 $nim = "1301184451";
 echo $universitas = substr($nim,0,1) .' : menyatakan kode universitas <br>' ;
 echo $fakultas = substr($nim,1,3) .' : menyatakan kode fakultas <br>';
